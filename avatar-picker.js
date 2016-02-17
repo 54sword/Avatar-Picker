@@ -2,21 +2,10 @@
 /**
  * avatarPicker 头像选择器
  *
- * @版本 0.1.1
  * @作者 54sword
  * @Email 54sword@gmail.com
  * @版权归作者所有
  */
-
-/**
-  avatarPicker({
-    img: img.path,
-    selectAreaScale: 0.2,
-    done: function(area) {
-      console.log(area);
-    }
-  });
-*/
 
 var avatarPicker = (function() {
 
