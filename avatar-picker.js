@@ -509,7 +509,7 @@ var avatarPicker = (function() {
     this.selectArea.x = parseInt(this.dragArea.width/2 - this.selectArea.width/2);
     this.selectArea.y = parseInt(this.dragArea.height/2 - this.selectArea.height/2);
 
-    this.clipimg.src = this.imgSrc;
+    this.clipimg.src = this.imgSrc + '?_r=' + new Date().getTime();
     this.clipimg.style.width = this.dragArea.width + 'px';
     this.clipimg.style.height = this.dragArea.height + 'px';
 
